@@ -1,7 +1,8 @@
 # Motorola Edge 50 Neo (Vienna) kernel manifest
 
 ## 1. Create folder & sync repo
-<pre> cd ~/
+<pre>
+cd ~/
 mkdir -p Vienna && cd Vienna
 repo init -u https://github.com/nooobas/vienna_kernel_manifest.git -m default.xml
 repo sync -j$(nproc)</pre>
