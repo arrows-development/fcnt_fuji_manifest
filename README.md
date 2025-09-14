@@ -1,4 +1,6 @@
 # Motorola Edge 50 Neo (Vienna) kernel manifest
+- Release tag: MMI-V1UI35H.11-39-16
+- Android 15
 
 ## 1. Create folder & sync repo
 <pre>cd ~/
