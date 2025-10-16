@@ -3,6 +3,7 @@
   <remote  name="aosp" fetch="https://android-review.googlesource.com/" />
   <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
   <remote name="motorola" fetch="https://github.com/MotorolaMobilityLLC/" />
+  <remote name="arrows-development" fetch="https://github.com/arrows-development/" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1" />
 
@@ -61,7 +62,7 @@
   <!-- Motorola kernel modules -->
   <project path="motorola/kernel/modules" name="motorola-kernel-modules" revision="refs/tags/MMI-V2VH35.58-32-11" remote="motorola" clone-depth="1" />
   
-  <project path="build/bazel_mgk_rules" name="kernel-build-bazel_mgk_rules" revision="refs/tags/MMI-V2VH35.58-32-11" remote="motorola">
+  <project path="build/bazel_mgk_rules" name="kernel-build-bazel_mgk_rules" revision="refs/tags/MMI-V2VH35.58-32-11" remote="arrows-development">
     <linkfile src="BUILD.bazel" dest="BUILD" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
