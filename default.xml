@@ -61,7 +61,7 @@
   <project path="vendor/mediatek/kernel_modules/hbt_driver_cus" name="vendor-mediatek-kernel_modules-hbt_driver_cus" revision="refs/tags/MMI-W1VH36H.80-34-2-2-1" remote="motorola" clone-depth="1" />
   
   <!-- Motorola kernel modules -->
-  <project path="motorola/kernel/modules" name="motorola-kernel-modules" revision="refs/tags/MMI-W1VH36H.80-34-2-2-1" remote="motorola" clone-depth="1" />
+  <project path="motorola/kernel/modules" name="motorola-kernel-modules" revision="main" remote="arrows-development" clone-depth="1" />
   
   <project path="build/bazel_mgk_rules" name="kernel-build-bazel_mgk_rules" revision="main" remote="arrows-development">
     <linkfile src="BUILD.bazel" dest="BUILD" />
